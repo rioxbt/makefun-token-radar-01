@@ -1,0 +1,2 @@
+# The program's own output: main.ts writes it fresh on every run, and the grader writes its own.
+out/

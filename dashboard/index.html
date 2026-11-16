@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar · pre-token protocols ranked by the implied value of their launch</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#board">Skip to the board</a>
+
+<header class="top">
+  <div class="brand">
+    <span class="mark" aria-hidden="true"></span>
+    <div>
+      <h1>Token Radar</h1>
+      <p class="tag">Every protocol in the snapshot whose record shows no token, ranked by what the token it may issue would be worth if its record stayed as it is, each with the steps to farm it.</p>
+    </div>
+  </div>
+  <dl class="facts" id="facts"></dl>
+</header>
+
+<main>
+  <section class="method" id="method" aria-label="The value model"></section>
+
+  <section class="controls" id="controls" aria-label="Views, filters and sort order"></section>
+
+  <section class="board" id="board" aria-label="The board" tabindex="-1"></section>
+
+  <section class="traded" id="traded" aria-label="Protocols whose token already trades" hidden></section>
+</main>
+
+<footer id="footer"></footer>
+
+<aside class="drawer" id="drawer" hidden aria-label="Protocol detail"></aside>
+
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
