@@ -199,40 +199,40 @@ td.comp span { display: block; color: var(--dim-2); font-size: 10.5px; }
   position: fixed; top: 0; right: 0; bottom: 0; width: min(620px, 92vw); z-index: 10;
   background: var(--panel); border-left: 1px solid var(--line-2);
   box-shadow: -30px 0 60px rgba(0, 0, 0, 0.45);
-  overflow-y: auto; padding: 22px 24px 40px;
+  overflow-y: auto; padding: 16px 20px 30px;
 }
 .drawer[hidden] { display: none; }
 .drawer .close { position: absolute; top: 16px; right: 18px; }
 .drawer h2 { font-size: 20px; }
 .drawer .sub { color: var(--dim); font-size: 12.5px; margin: 4px 0 0; }
-.drawer .hero { margin: 18px 0 6px; padding: 14px 16px; border: 1px solid var(--line-2); border-radius: 10px; background: #0a1120; }
-.drawer .hero .big { font-family: var(--mono); font-size: 30px; color: var(--amber); font-weight: 600; }
+.drawer .hero { margin: 13px 0 5px; padding: 11px 14px; border: 1px solid var(--line-2); border-radius: 10px; background: #0a1120; }
+.drawer .hero .big { font-family: var(--mono); font-size: 26px; color: var(--amber); font-weight: 600; }
 .drawer .hero .cap { color: var(--dim-2); font-size: 11px; text-transform: uppercase; letter-spacing: 0.09em; }
 .drawer .hero .rng { color: var(--dim); font-size: 12.5px; margin-top: 2px; }
 
-.rail { height: 6px; border-radius: 3px; background: #1b2438; margin: 14px 0 4px; position: relative; }
+.rail { height: 6px; border-radius: 3px; background: #1b2438; margin: 10px 0 3px; position: relative; }
 .rail .lo, .rail .hi { position: absolute; top: 0; bottom: 0; }
 .rail .lo { background: #2f3f5c; border-radius: 3px 0 0 3px; }
 .rail .hi { background: #2f3f5c; border-radius: 0 3px 3px 0; }
 .rail .at { position: absolute; top: -4px; width: 2px; height: 14px; background: var(--amber); }
 .rail-labels { display: flex; justify-content: space-between; color: var(--dim-2); font-size: 11px; font-family: var(--mono); }
 
-.drawer h3 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--dim); margin: 22px 0 8px; }
+.drawer h3 { font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--dim); margin: 15px 0 6px; }
 
 .factors { width: 100%; font-size: 12.5px; }
-.factors td { padding: 5px 0; border-bottom: 1px dashed rgba(45, 61, 92, 0.7); }
+.factors td { padding: 3px 0; border-bottom: 1px dashed rgba(45, 61, 92, 0.7); }
 .factors td:last-child { text-align: right; font-family: var(--mono); }
 .factors .m { color: var(--dim); }
 .factors tr.sum td { border-bottom: none; color: var(--ink); font-weight: 600; }
 .factors tr.sum td:last-child { color: var(--amber); font-size: 15px; }
 
-ol.plan { margin: 0; padding-left: 22px; }
-ol.plan li { margin-bottom: 11px; }
+ol.plan { margin: 0; padding-left: 20px; font-size: 13.5px; }
+ol.plan li { margin-bottom: 7px; }
 ol.plan li::marker { color: var(--amber); font-family: var(--mono); }
 ol.plan .cost { display: block; margin-top: 3px; color: var(--dim); font-size: 12px; }
 ol.plan .cost b { color: var(--teal); font-weight: 600; font-family: var(--mono); }
 
-.caveat { margin-top: 20px; padding: 11px 13px; border-left: 2px solid var(--amber-dim); background: rgba(244, 185, 66, 0.05); color: var(--dim); font-size: 12px; border-radius: 0 6px 6px 0; }
+.caveat { margin-top: 14px; padding: 9px 11px; border-left: 2px solid var(--amber-dim); background: rgba(244, 185, 66, 0.05); color: var(--dim); font-size: 12px; border-radius: 0 6px 6px 0; }
 
 /* ---------------------------------------------------------------- traded view */
 
